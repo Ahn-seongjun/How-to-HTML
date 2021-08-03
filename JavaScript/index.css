@@ -1,0 +1,43 @@
+#wrap{
+    margin-left:50px;
+    margin-right:50px;
+}
+#topMenu{
+    background-color:green;
+    color: white;
+    text-align:right;
+    margin-bottom:5px;
+
+}
+#menuBox{
+    background-color:orange;
+    color: blue;
+    text-align:center;
+    margin-bottom:5px;
+}
+#subMenuBox{
+    background-color:yellow;
+    color: blue;
+    text-align:center;
+    margin-bottom:5px;
+}
+#slideShowBox{
+    background-color:blue;
+    color: white;
+    text-align:center;
+    margin-bottom:5px;
+    padding:40px;
+}
+#content{
+    background-color:Darkblue;
+    color: white;
+    text-align:center;
+    padding:130px;
+    margin-bottom:5px;
+}
+#companyInfo{
+    background-color:black;
+    color: yellow;
+    text-align:center;
+    padding:40px;
+}

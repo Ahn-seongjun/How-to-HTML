@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MsgWindow</title>
+  <script>
+    function winClose(){
+        window.close();//현재 창(msgWindow.html) 닫고
+        opener.focus();//현재 창을 연 부모창에 포커스 주기
+    }
+  </script>
+</head>
+<body onload="setTimeout('winClose()',5000)"> <!--setTimeout('호출함수',시간) ->작은 따옴표 써야 함-->
+공지사항<br>
+이 창은 5초 후에 닫힙니다.
+</body>
+</html>
