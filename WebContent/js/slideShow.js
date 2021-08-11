@@ -1,5 +1,3 @@
-
-
 $(function(){
     // 이동한 이미지의 index 값 저장(현재 화면에서 보여지는 이미지의 index)
     var movedIndex = 0;

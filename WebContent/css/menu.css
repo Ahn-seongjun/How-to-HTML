@@ -66,8 +66,8 @@ ul{
     width:15%;
     margin-top:10px;
     background:white;
-    border-left:solid #CCC 1px;
-    border-right:solid #CCC 1px;
+    border-top:solid #CCC 1px;
+    border-bottom:solid #CCC 1px;
 }
 
 #subMenuItem1{
@@ -119,4 +119,21 @@ ul{
 	background-color:white;
 	text-decoration:underline;
 	color:black;
+}
+
+#bottomMenuBox{
+    height:30px;
+    line-height:30px;
+}
+
+#bottomMenuBox li{
+    display:inline-block;
+    text-align:center;
+    padding:5px;
+}
+
+#bottomMenuBox a{
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
 }

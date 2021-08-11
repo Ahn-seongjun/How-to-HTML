@@ -13,3 +13,14 @@
     height:60px;
     line-height:60px;
 }
+
+
+
+.mainMenuFixed{
+    position:fixed;
+    top:0px;
+}
+
+.mainMenuShadow{
+    box-shadow:0 3px 5px 0px gray;
+}
